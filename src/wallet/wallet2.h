@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The myobcoin Project
 // 
 // All rights reserved.
 // 
@@ -61,8 +61,8 @@
 
 #include <iostream>
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "wallet.wallet2"
+#undef myobcoin_DEFAULT_LOG_CATEGORY
+#define myobcoin_DEFAULT_LOG_CATEGORY "wallet.wallet2"
 
 class Serialization_portability_wallet_Test;
 

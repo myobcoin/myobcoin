@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The myobcoin Project
 // 
 // All rights reserved.
 // 
@@ -326,19 +326,19 @@ namespace crypto
       {
         language = Language::Singleton<Language::Dutch>::instance();
       }
-      else if (language_name == "Français")
+      else if (language_name == "Fran??ais")
       {
         language = Language::Singleton<Language::French>::instance();
       }
-      else if (language_name == "Español")
+      else if (language_name == "Espa??ol")
       {
         language = Language::Singleton<Language::Spanish>::instance();
       }
-      else if (language_name == "Português")
+      else if (language_name == "Portugu??s")
       {
         language = Language::Singleton<Language::Portuguese>::instance();
       }
-      else if (language_name == "日本語")
+      else if (language_name == "?????????")
       {
         language = Language::Singleton<Language::Japanese>::instance();
       }
@@ -350,11 +350,11 @@ namespace crypto
       {
         language = Language::Singleton<Language::German>::instance();
       }
-      else if (language_name == "русский язык")
+      else if (language_name == "?????????????? ????????")
       {
         language = Language::Singleton<Language::Russian>::instance();
       }
-      else if (language_name == "简体中文 (中国)")
+      else if (language_name == "???????????? (??????)")
       {
         language = Language::Singleton<Language::Chinese_Simplified>::instance();
       }

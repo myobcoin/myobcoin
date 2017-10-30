@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The myobcoin Project
 //
 // All rights reserved.
 //
@@ -42,7 +42,7 @@
 
 using namespace std;
 
-namespace Monero {
+namespace myobcoin {
 
 PendingTransaction::~PendingTransaction() {}
 
@@ -190,5 +190,5 @@ std::vector<std::set<uint32_t>> PendingTransactionImpl::subaddrIndices() const
 
 }
 
-namespace Bitmonero = Monero;
+namespace Bitmyobcoin = myobcoin;
 

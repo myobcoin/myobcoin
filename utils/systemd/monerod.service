@@ -1,18 +1,18 @@
 [Unit]
-Description=Monero Full Node
+Description=myobcoin Full Node
 After=network.target
 
 [Service]
-User=monero
-Group=monero
+User=myobcoin
+Group=myobcoin
 WorkingDirectory=~
-RuntimeDirectory=monero
+RuntimeDirectory=myobcoin
 
 Type=forking
-PIDFile=/run/monero/monerod.pid
+PIDFile=/run/myobcoin/myobcoind.pid
 
-ExecStart=/usr/bin/monerod --config-file /etc/monerod.conf \
-    --detach --pidfile /run/monero/monerod.pid
+ExecStart=/usr/bin/myobcoind --config-file /etc/myobcoind.conf \
+    --detach --pidfile /run/myobcoin/myobcoind.pid
 
 [Install]
 WantedBy=multi-user.target
